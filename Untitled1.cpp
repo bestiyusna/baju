@@ -10,7 +10,7 @@ class baju{
 };
 
 int main() {
-	kaus oblong;
+	baju oblong;
 	
 	Epson.warna ="kuning";
 	Epson.harga =100000;
@@ -18,5 +18,8 @@ int main() {
 	cout<<"Jenis warna yang digunakan "<< (Epson.warna)<<endl;
 	cout<<"Harga nya terjangkau "<< (Epson.harga)<<endl;
 	
+	Epson.ukuran("s m l xl xxl");
 }
-
+Void baju:ukuran(string XL){
+		cout<<"warna nya banyak "<<nyala<<"bahanya bagus dan hargaya terjangkau"<<endl;
+}
