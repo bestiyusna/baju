@@ -12,14 +12,14 @@ class baju{
 int main() {
 	baju oblong;
 	
-	Epson.warna ="kuning";
-	Epson.harga =100000;
+	oblong.warna ="kuning";
+	oblong.harga =100000;
 	
-	cout<<"Jenis warna yang digunakan "<< (Epson.warna)<<endl;
-	cout<<"Harga nya terjangkau "<< (Epson.harga)<<endl;
+	cout<<"Jenis warna yang digunakan "<< (oblong.warna)<<endl;
+	cout<<"Harga nya terjangkau "<< (oblong.harga)<<endl;
 	
-	Epson.ukuran("s m l xl xxl");
+	oblong.ukuran("s m l xl xxl");
 }
-Void baju:ukuran(string XL){
-		cout<<"warna nya banyak "<<nyala<<"bahanya bagus dan hargaya terjangkau"<<endl;
+void baju::ukuran(string XL){
+		cout<<"warna nya banyak "<<XL<<"bahanya bagus dan hargaya terjangkau"<<endl;
 }
